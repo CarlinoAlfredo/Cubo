@@ -27,3 +27,5 @@ func _ready() -> void:
 	# Crea la cartella se non esiste
 	if not DirAccess.dir_exists_absolute("user://CuboSaves"):
 		DirAccess.make_dir_absolute("user://CuboSaves")
+
+

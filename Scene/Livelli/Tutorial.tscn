@@ -1,14 +1,14 @@
 [gd_scene load_steps=18 format=3 uid="uid://dcopv01aorh0p"]
 
 [ext_resource type="Script" path="res://Script/BaseLevel.gd" id="1_dltmu"]
-[ext_resource type="AudioStream" uid="uid://b2d1jktuyn30e" path="res://Assets/Sfx/GameMusic.wav" id="2_hy04n"]
+[ext_resource type="AudioStream" uid="uid://by7k7lovfobo7" path="res://Assets/Sfx/GameMusic.mp3" id="2_hy04n"]
 [ext_resource type="TileSet" uid="uid://b3oplcqw8uw7r" path="res://Resource/TileMap.tres" id="2_plmuh"]
 [ext_resource type="PackedScene" uid="uid://d288xrkdmpbre" path="res://Scene/Player.tscn" id="3_tpfn3"]
 [ext_resource type="PackedScene" uid="uid://ceedvsppgb5cr" path="res://Scene/Paletti.tscn" id="4_juor3"]
 [ext_resource type="PackedScene" uid="uid://bselgyt6uq64q" path="res://Scene/Chiave.tscn" id="5_dl5dp"]
 [ext_resource type="Script" path="res://Script/Uscita.gd" id="6_d5w4h"]
 [ext_resource type="Script" path="res://Script/Camera.gd" id="7_62s1o"]
-[ext_resource type="AudioStream" uid="uid://cwo7nigbnbnfi" path="res://Assets/Sfx/ProssimoLivello.wav" id="7_w1y7d"]
+[ext_resource type="AudioStream" uid="uid://fxcmuo5nlu5l" path="res://Assets/Sfx/ProssimoLivello.mp3" id="8_0y6f1"]
 [ext_resource type="PackedScene" uid="uid://b0457tdkr07ah" path="res://Scene/Effetti.tscn" id="8_1io54"]
 [ext_resource type="PackedScene" uid="uid://dx7jgkuntpghv" path="res://Scene/UI.tscn" id="9_jfg68"]
 [ext_resource type="LabelSettings" uid="uid://cwnk2tdjvk7qw" path="res://Assets/Risorse/LabelSettings.tres" id="9_ycfe5"]
@@ -130,7 +130,7 @@ script = ExtResource("6_d5w4h")
 metadata/_edit_group_ = true
 
 [node name="AudioProssimoLivello" type="AudioStreamPlayer" parent="2D/Uscita"]
-stream = ExtResource("7_w1y7d")
+stream = ExtResource("8_0y6f1")
 volume_db = -15.0
 pitch_scale = 1.5
 bus = &"Sfx"

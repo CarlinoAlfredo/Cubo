@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Script/LivelliMenu.gd" id="1_4e33b"]
 [ext_resource type="Texture2D" uid="uid://dr8yuttgtd5t6" path="res://Assets/Background.png" id="1_wdkl6"]
-[ext_resource type="AudioStream" uid="uid://cqo7jd8yl71rb" path="res://Assets/Sfx/MainMenuMusic.wav" id="2_r5l3w"]
+[ext_resource type="AudioStream" uid="uid://8i80in5rfk4v" path="res://Assets/Sfx/MainMenuMusic.mp3" id="2_76xxh"]
 
 [node name="LivelliMenu" type="Control"]
 layout_mode = 3
@@ -14,7 +14,7 @@ grow_vertical = 2
 script = ExtResource("1_4e33b")
 
 [node name="AudioMusica" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("2_r5l3w")
+stream = ExtResource("2_76xxh")
 volume_db = -5.0
 autoplay = true
 bus = &"Musica"

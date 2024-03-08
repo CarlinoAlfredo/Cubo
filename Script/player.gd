@@ -96,7 +96,7 @@ func sposta_player() -> void:
 		cambia_livello.emit()
 
 
-func _process(delta : float) -> void:
+func _process(_delta : float) -> void:
 	if not morto:
 		ruota_player()
 		sposta_player()
@@ -110,11 +110,11 @@ func movimento_finito() -> void:
 	puo_muovere = true
 
 
-func _on_area_2d_body_entered(body: Node2D) -> void:
+func _on_area_2d_body_entered(_body: Node2D) -> void:
 	collide_con_muro = true
 
 
-func _on_area_2d_body_exited(body: Node2D) -> void:
+func _on_area_2d_body_exited(_body: Node2D) -> void:
 	collide_con_muro = false
 
 

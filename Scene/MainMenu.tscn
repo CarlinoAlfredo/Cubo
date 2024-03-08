@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Script/MainMenu.gd" id="1_1f1wd"]
 [ext_resource type="Texture2D" uid="uid://dr8yuttgtd5t6" path="res://Assets/Background.png" id="1_chd8p"]
-[ext_resource type="AudioStream" uid="uid://cqo7jd8yl71rb" path="res://Assets/Sfx/MainMenuMusic.wav" id="2_h3gqx"]
+[ext_resource type="AudioStream" uid="uid://8i80in5rfk4v" path="res://Assets/Sfx/MainMenuMusic.mp3" id="2_h3gqx"]
 
 [sub_resource type="Animation" id="Animation_8skc5"]
 resource_name = "In"

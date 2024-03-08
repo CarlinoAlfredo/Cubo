@@ -319,9 +319,10 @@ _data = {
 [node name="Paletto" type="Area2D" groups=["danneggia"]]
 script = ExtResource("1_h1l5g")
 
-[node name="AudioSfx" type="AudioStreamPlayer" parent="."]
+[node name="AudioSfx" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("2_gjkpp")
 volume_db = -10.0
+max_distance = 700.0
 bus = &"Sfx"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
