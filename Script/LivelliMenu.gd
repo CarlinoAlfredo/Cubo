@@ -6,7 +6,9 @@ extends Control # LivelliMenu
 
 func _ready() -> void:
 	var config : ConfigFile = ScriptGlobale.prendi_config_file("user://CuboSaves/DatiLivelli.cfg")
-	ScriptGlobale.ultimo_livello_sbloccato = config.get_value("livello", "id_ultimo_livello_sbloccato", 1)
+	
+	if config != null:
+		ScriptGlobale.ultimo_livello_sbloccato = config.get_value("livello", "id_ultimo_livello_sbloccato", 1)
 	
 	for indice_bottone_livello : int in range(0, ScriptGlobale.ultimo_livello_sbloccato):
 		grid_container.get_child(indice_bottone_livello).disabled = false
